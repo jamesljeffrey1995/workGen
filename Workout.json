@@ -1,0 +1,49 @@
+{
+    "Shoulders":{
+        "Pressups":["10 Reps","15 Reps","20 Reps"], 
+        "Incline Bensh Press":["10 Reps","15 Reps","20 Reps"], 
+        "Lateral Raise":["10 Reps","15 Reps","20 Reps"], 
+        "Overhead Press":["10 Reps","15 Reps","20 Reps"], 
+        "Standing Cable Pulley Fly":["10 Reps","15 Reps","20 Reps"], 
+        "Dumbbell Shoulder Press":["10 Reps","15 Reps","20 Reps"], 
+        "Cable Face Pulls":["10 Reps","15 Reps","20 Reps"],
+        "Barbell Shrug":["10 Reps","15 Reps","20 Reps"],
+        "Bent-Over Reverse Fly":["10 Reps","15 Reps","20 Reps"],
+        "Front Raise":["10 Reps","15 Reps","20 Reps"]
+    },
+    "Abs":{
+        "Dumbbell Crunch":["15 Reps","20 Reps","25 Reps"],
+        "Tuck and Crunch":["15 Reps","20 Reps","25 Reps"],
+        "Crunch":["15 Reps","20 Reps","25 Reps"],
+        "Hanging Leg Raise":["15 Reps","20 Reps","25 Reps"],
+        "Plank":["30 Secs","45 Secs","1 Minute"],
+        "Russian Twist":["10 Reps","15 Reps","20 Reps"]
+    },
+    "Back":{
+        "Kettlebell Swings":["10 Reps","15 Reps","20 Reps"],
+        "Barbell Bent-Over Row":["10 Reps","15 Reps","20 Reps"],
+        "Pull-Up":["5 Reps","7 Reps","10 Reps"],
+        "Dumbbell Single-Arm Row":["10 Reps","15 Reps","20 Reps"],
+        "Farmers'walk":["There and Back"],
+        "TRX Low Row":["10 Reps","15 Reps","20 Reps"],
+        "Band rows":["10 Reps","15 Reps","20 Reps"]
+    },
+    "Legs":{
+        "Calf Raises":["15 Reps","20 Reps","25 Reps"],
+        "Goblet Squats":["15 Reps","20 Reps","25 Reps"],
+        "Split Dumbbell Squats":["15 Reps","20 Reps","25 Reps"],
+        "Wallsits":["20 Seconds", "40 Seconds", "1 Minute"],
+        "Romanian Deadlifts":["15 Reps","20 Reps","25 Reps"],
+        "Step Ups with Dumbbells":["15 Reps","20 Reps","25 Reps"]
+    },
+    "Arms":{
+        "Bicep Curls":["15 Reps","20 Reps","25 Reps"],
+        "Reverse Grip Barbell Curls":["15 Reps","20 Reps","25 Reps"],
+        "One arm Seated Tricep extension":["15 Reps","20 Reps","25 Reps"],
+        "Tate Press":["15 Reps","20 Reps","25 Reps"],
+        "Barbell Tricep Extensions":["15 Reps","20 Reps","25 Reps"],
+        "Close Grip Chest Press":["15 Reps","20 Reps","25 Reps"],
+        "Straight Barbell Palms-Up Wrist Curl":["15 Reps","20 Reps","25 Reps"],
+        "Straight Barbell Palms-Down Wrist Curl":["15 Reps","20 Reps","25 Reps"]
+    }
+}
