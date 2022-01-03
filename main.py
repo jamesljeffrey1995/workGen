@@ -1,6 +1,7 @@
 import slack
 from workouts_gen import workout_gen, emojis
 from re import sub
+from time import sleep
 
 client = slack.WebClient(token="slackToken")
 
@@ -18,11 +19,10 @@ def get_workout_two(workout,exercises,reps, emoji):
                 }
             }
         ])
-        for x in range(len(exercises)):
+        for x in range(len(exercises[i])):
             char_to_rep = "''"
             pattern = "[" + char_to_rep + "]"
             new_rep = sub(pattern, "", str(reps[i][x]))
-
             client.chat_postMessage(channel='#climbing-workout-generator', blocks=[
             {
                 'type':'section',
@@ -34,15 +34,17 @@ def get_workout_two(workout,exercises,reps, emoji):
                 }
             }
         ])
+            sleep(3)
+
     client.chat_postMessage(channel='#climbing-workout-generator', blocks=[
             {
                 'type':'section',
                 'text':{
                     'type':'mrkdwn',
                     'text':(
-                        emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji +emoji + emoji + emoji + emoji + emoji+ emoji +emoji + emoji + emoji + emoji + emoji + '\n' +
-                        '                                        END OF EXERCISES FOR THIS WEEK\n' +
-                        emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji +emoji + emoji + emoji + emoji + emoji+ emoji +emoji + emoji + emoji + emoji + emoji
+                        emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji +emoji + emoji + emoji + emoji + emoji+ emoji +emoji + emoji + emoji + emoji + emoji + emoji + '\n' +
+                        'END OF EXERCISES FOR THIS WEEK\n' +
+                        emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji + emoji +emoji + emoji + emoji + emoji + emoji+ emoji +emoji + emoji + emoji + emoji + emoji+ emoji
                     )
                 }
             }

@@ -11,9 +11,8 @@ class workout_gen:
 
         for i in data:
             samples.append(i)
-        
         f.close()
-        types_of_workout = sample(samples, 5)
+        types_of_workout = sample(samples, int(len(samples)))
         the_workout = self.get_workouts(types_of_workout)
         reps = self.workout_reps(types_of_workout, the_workout)
         return types_of_workout, the_workout, reps
